@@ -1,0 +1,34 @@
+/*
+*   Project:        Admin Dashboard
+*   Author:         Abhijit Das
+*   Facebook:       @abhijitnumber1
+*   Description:    Admin Dashboard is a open source project to develope an admin
+*                   dashboard template using boootstrap 4
+*   Version:        v1.0.0
+*/
+body
+{
+    background: linear-gradient( rgba(129, 129, 129, 0.5) 100%, rgba(129, 129, 129, 0.5)100%), url('../images/nature.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.bg_trans
+{
+    background: transparent;
+}
+#user_icon
+{
+    color: #22313F;
+}
+#message
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+#weather_icon
+{
+    width: 40px;
+}

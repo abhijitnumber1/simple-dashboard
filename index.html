@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100">
+    <head>
+        <title>Admin Dashboard</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/login.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+
+    </head>
+    <body class="h-100">
+        <!--start the main_container-->
+        <div class="container-fluid h-100" id="main_container">
+            <div class="row">
+                <div class="col-md-10 mb-auto">
+
+                </div>
+                <div class="col-md-2 mb-auto text-right">
+                    <img id="weather_icon" src="" />
+                    <sup id="act_temp"></sup>
+                </div>
+            </div>
+            <div class="row h-75">
+                <div class="col-12 my-auto">
+                    <div class="card bg_trans border-0 mx-auto" style="width: 18rem;">
+                        <div class="card-header bg_trans text-center border-0">
+                            <i class="fas fa-user-circle fa-10x" id="user_icon"></i>
+                        </div>
+                        <p class="m-0 text-center" id="message">Hello!</p>
+                        <form action="" method="POST" id="form_user_login">
+                            <div class="card-body">
+                                <div class="form-group">
+                                    <input class="form-control" name="username" id="username" placeholder="Username" />
+                                </div>
+                                <div class="input-group">
+                                    <input class="form-control" name="password" id="password" placeholder="Password" />
+                                    <div class="input-group-append">
+                                        <span class="input-group-text"><i class="fas fa-angle-double-right"></i></span>
+                                    </div>
+                                </div>
+                                <input type="submit" class="d-none" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!--end of row-->
+
+        </div>
+        <!--end the main_container-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="js/cookie.js"></script>
+        <script src="js/longlat.js"></script>
+    </body>
+</html> 
